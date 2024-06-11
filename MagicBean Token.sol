@@ -4,8 +4,6 @@ interface IBEP20 {
   /**
    * @dev Returns the amount of tokens in existence.
    */
-function totalSupply_added() external view returns (uint256);
-
   function totalSupply() external view returns (uint256);
 
   /**
